@@ -28,6 +28,28 @@
   object-fit: cover;
 }
 
+/* Custom CSS for hover effect */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-item {
+  position: relative;
+  transition: all 0.3s ease;
+}
+.dropdown-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff; /* Change underline color */
+  transition: all 0.3s ease;
+}
+.dropdown-item:hover::after {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   #main_text {
     font-size: large;
