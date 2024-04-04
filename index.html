@@ -23,7 +23,11 @@
                   Texnikum
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Texnikum haqida</a></li>
+                  <li>
+                    <button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Texnikum haqida
+                  </button>
+                </li>
                   <li><a class="dropdown-item" href="#">Rektor tabrigi</a></li>
                   <li><a class="dropdown-item" href="#">Me'yoriy hujjatlar</a></li>
                   <li><a class="dropdown-item" href="#">Ramzlar</a></li>
@@ -104,6 +108,7 @@
         </div>
       </div>
     </header>
+    
     
     <div class="container-md mt-5" id="texnikum_haqida">
       <div id="card_img_body" class="card">
@@ -251,6 +256,27 @@
         <p class="fs-4">Email:  tashkent_texnikum@univ-silkroad.uz</p>
       </div>
     </div>
+    <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Ipak Yoli Texnikumi haqida</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Тошкент туризм ва мехмонхона менежменти техникуми Ўзбекистон Республикаси Президентининг ПФ-5812 сонли фармони асосида 2020 йил 3- сентябрда “Ипак йули” туризм ва маданий мерос халқаро университети хузурида ташкил этилган. 
+        Тошкент туризм ва мехмонхона менежменти техникуми халкаро таснифлагичнинг 4 ва 5- даражаларига мос келувчи, хизмат курсатиш сохаси буйича урта бугин профессионал кадрларни мехнат бозорига етказиб берувчи таълим муассасаси хисобланади. Техникум сигими 605 та талабани камраб олади. Техникумимизда кутубхона, укув ва амалиет хоналари, ошхона, кишки ва ёзги спорт майдончаси, хамда фаоллар зали мавжуд.
+        Техникумимиз ташкил этилгандан бери, 400 га якин малакали кадрлар етишиб чикиб, хизмат курсатиш сохасида фаолият юритиб келмокда. 100 дан ортик талабаларимиз Олий укув юртлариги сухбат асосида 2- курсдан уз мутахассисликлари буйича тахсил олмокдалар. 
+        Бугунги кунда техникумда 200 га якин талабалар кундузги ва сиртқи таълим  асосида  тахсил олмоқдалар.
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
